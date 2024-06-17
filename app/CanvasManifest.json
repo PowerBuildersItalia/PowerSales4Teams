@@ -130,7 +130,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "it-IT"
   },
   "ScreenOrder": [
     "HomeScreen"

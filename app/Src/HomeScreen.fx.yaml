@@ -55,7 +55,7 @@
                 RadiusTopRight: =4
                 ZIndex: =4
 
-                "TabList1 As 'Tab list'.pcfdataset":
+                "TabList1 As 'Elenco schede'.pcfdataset":
                     AlignInContainer: =AlignInContainer.Stretch
                     Alignment: =If(HomeScreen.Size=1,'TabList.Alignment'.Horizontal,'TabList.Alignment'.Vertical)
                     DisplayMode: =DisplayMode.Edit
@@ -118,7 +118,7 @@
                             Width: =Parent.TemplateWidth
                             ZIndex: =1
 
-                TableOpportunities As Table.pcfdataset:
+                TableOpportunities As Tabella.pcfdataset:
                     DisplayMode: =DisplayMode.Edit
                     Height: =If(Self.Y + 500 > Parent.Height, Parent.Height - Self.Y, 500)
                     Items: =Opportunity
@@ -142,7 +142,7 @@
                         FieldType: ="s"
                         FieldVariantName: ="textualColumn"
                         Height: =100
-                        Order: =1
+                        Order: =2
                         Width: =0
                         X: =0
                         Y: =0
@@ -154,7 +154,7 @@
                         FieldType: ="$"
                         FieldVariantName: ="textualColumn"
                         Height: =100
-                        Order: =4
+                        Order: =5
                         Width: =0
                         X: =0
                         Y: =0
@@ -178,11 +178,23 @@
                         FieldType: ="E"
                         FieldVariantName: ="complexTypeColumn"
                         Height: =100
-                        Order: =2
+                        Order: =4
                         Width: =0
                         X: =0
                         Y: =0
                         ZIndex: =10
+
+                    "'Pipeline stage1' As PowerAppsOneGridTemplate_dataField":
+                        FieldDisplayName: ="Pipeline stage"
+                        FieldName: ="pbita_PipelinestageId"
+                        FieldType: ="E"
+                        FieldVariantName: ="complexTypeColumn"
+                        Height: =100
+                        Order: =1
+                        Width: =0
+                        X: =0
+                        Y: =0
+                        ZIndex: =11
 
             HomeScreenFormContainer As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
