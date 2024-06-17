@@ -1,0 +1,94 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pbita_pipelinestages",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pbita_pipelinestage",
+    "MaxGetRowsCount": 500,
+    "Name": "Pipeline stages",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietario",
+      "createdby": "Autore",
+      "createdon": "Data creazione",
+      "createdonbehalfby": "Autore (delegato)",
+      "importsequencenumber": "Numero sequenza importazione",
+      "modifiedby": "Autore modifica",
+      "modifiedon": "Data modifica",
+      "modifiedonbehalfby": "Autore modifica (delegato)",
+      "overriddencreatedon": "Data creazione record",
+      "owningbusinessunit": "Business Unit proprietaria",
+      "owningteam": "Team proprietario",
+      "owninguser": "Utente proprietario",
+      "pbita_name": "Name",
+      "pbita_percentage": "Percentage",
+      "pbita_pipelinestage_AsyncOperations": "System Jobs",
+      "pbita_pipelinestage_BulkDeleteFailures": "Bulk Delete Failures",
+      "pbita_pipelinestage_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pbita_pipelinestage_ProcessSession": "Process Sessions",
+      "pbita_pipelinestageid": "Pipeline stage",
+      "statecode": "Stato",
+      "statuscode": "Motivo stato",
+      "timezoneruleversionnumber": "Numero di versione regola fuso orario",
+      "utcconversiontimezonecode": "Codice fuso orario conversione UTC",
+      "versionnumber": "Numero di versione"
+    },
+    "PreferredName": "Pipeline stages",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Pipeline stages (Visualizzazioni)",
+    "Name": "_pbita_pipelinestage_views",
+    "RelatedEntityName": "Pipeline stages",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "11e723f2-4df7-40ce-98c7-212f741364c1": "Visualizzazione ricerca Pipeline stage",
+      "1bbb920d-55b9-4d46-8da1-c3368cc740ad": "Visualizzazione associata Pipeline stage",
+      "220aa4df-809e-4aeb-83a9-ecab8e4b4e77": "Pipeline stages attivi/e",
+      "4ada437b-50d3-434d-8ce7-cc0027d5eb25": "Pipeline stages inattivi/e",
+      "e8c74d0f-ecff-4204-9dd4-32261ce09770": "Visualizzazione ricerca avanzata Pipeline stage"
+    }
+  },
+  {
+    "DisplayName": "Stato (Pipeline stages)",
+    "Name": "pbita_pipelinestage_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Attivo",
+      "1": "Inattivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Pipeline stages"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Pipeline stages",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Motivo stato (Pipeline stages)",
+    "Name": "pbita_pipelinestage_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Attivo",
+      "2": "Inattivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Pipeline stages"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Pipeline stages",
+    "Type": "OptionSetInfo"
+  }
+]

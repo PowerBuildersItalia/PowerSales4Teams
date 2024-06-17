@@ -1,0 +1,97 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pbita_leads",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pbita_lead",
+    "MaxGetRowsCount": 500,
+    "Name": "Leads",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietario",
+      "createdby": "Autore",
+      "createdon": "Data creazione",
+      "createdonbehalfby": "Autore (delegato)",
+      "importsequencenumber": "Numero sequenza importazione",
+      "modifiedby": "Autore modifica",
+      "modifiedon": "Data modifica",
+      "modifiedonbehalfby": "Autore modifica (delegato)",
+      "overriddencreatedon": "Data creazione record",
+      "owningbusinessunit": "Business Unit proprietaria",
+      "owningteam": "Team proprietario",
+      "owninguser": "Utente proprietario",
+      "pbita_companyname": "Company name",
+      "pbita_firtname": "Firtname",
+      "pbita_lastname": "Lastname",
+      "pbita_lead_AsyncOperations": "System Jobs",
+      "pbita_lead_BulkDeleteFailures": "Bulk Delete Failures",
+      "pbita_lead_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pbita_lead_ProcessSession": "Process Sessions",
+      "pbita_leadid": "Lead",
+      "pbita_opportunity_PotentialcustomerId_pbita_lead": "Opportunity",
+      "pbita_title": "Title",
+      "statecode": "Stato",
+      "statuscode": "Motivo stato",
+      "timezoneruleversionnumber": "Numero di versione regola fuso orario",
+      "utcconversiontimezonecode": "Codice fuso orario conversione UTC",
+      "versionnumber": "Numero di versione"
+    },
+    "PreferredName": "Leads",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Leads (Visualizzazioni)",
+    "Name": "_pbita_lead_views",
+    "RelatedEntityName": "Leads",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "4f9d2641-d5e8-4b5b-98fc-b31f2da9fa46": "Leads inattivi/e",
+      "f2e9679f-81f9-4525-be37-bfc643c8ecc3": "Visualizzazione ricerca Lead",
+      "f437b958-6a14-4931-b96a-8724300d4488": "Visualizzazione ricerca avanzata Lead",
+      "f99f9379-8a9c-4e4a-9efd-7f92778228f3": "Leads attivi/e",
+      "fddc9ebf-a234-43ec-99d3-b157849e7d2c": "Visualizzazione associata Lead"
+    }
+  },
+  {
+    "DisplayName": "Stato (Leads)",
+    "Name": "pbita_lead_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Attivo",
+      "1": "Inattivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Leads"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Leads",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Motivo stato (Leads)",
+    "Name": "pbita_lead_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Attivo",
+      "2": "Inattivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Leads"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Leads",
+    "Type": "OptionSetInfo"
+  }
+]

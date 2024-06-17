@@ -1,0 +1,51 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_pbita_lead_forms",
+      "Namespace": "Leads (Forms)",
+      "Values": {
+        "Informazioni": "e490fd06-8ab0-45b9-8358-cb049b32d3ab"
+      }
+    },
+    {
+      "Kind": "default.cds_pbita_opportunity_forms",
+      "Namespace": "Opportunity (Forms)",
+      "Values": {
+        "Informazioni": "754bb57d-1e73-4b48-b1fb-f66d6803d9a8"
+      }
+    },
+    {
+      "Kind": "default.cds_pbita_pipelinestage_forms",
+      "Namespace": "Pipeline stages (Forms)",
+      "Values": {
+        "Informazioni": "d7747b74-c057-459a-ba0d-7701139a7bc8"
+      }
+    },
+    {
+      "Kind": "default.cds_pbita_lead_forms",
+      "Namespace": "Leads (Moduli)",
+      "Values": {
+        "Informazioni": "e490fd06-8ab0-45b9-8358-cb049b32d3ab"
+      }
+    },
+    {
+      "Kind": "default.cds_pbita_opportunity_forms",
+      "Namespace": "Opportunity (Moduli)",
+      "Values": {
+        "Informazioni": "754bb57d-1e73-4b48-b1fb-f66d6803d9a8"
+      }
+    },
+    {
+      "Kind": "default.cds_pbita_pipelinestage_forms",
+      "Namespace": "Pipeline stages (Moduli)",
+      "Values": {
+        "Informazioni": "d7747b74-c057-459a-ba0d-7701139a7bc8"
+      }
+    },
+    {
+      "Kind": "default.cds_pbita_nuovatabella_forms",
+      "Namespace": "Nuove tabelle (Forms)",
+      "Values": {}
+    }
+  ]
+}

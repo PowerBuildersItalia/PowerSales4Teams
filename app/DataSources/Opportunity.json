@@ -1,0 +1,97 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pbita_opportunities",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pbita_opportunity",
+    "MaxGetRowsCount": 500,
+    "Name": "Opportunity",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietario",
+      "createdby": "Autore",
+      "createdon": "Data creazione",
+      "createdonbehalfby": "Autore (delegato)",
+      "importsequencenumber": "Numero sequenza importazione",
+      "modifiedby": "Autore modifica",
+      "modifiedon": "Data modifica",
+      "modifiedonbehalfby": "Autore modifica (delegato)",
+      "overriddencreatedon": "Data creazione record",
+      "owningbusinessunit": "Business Unit proprietaria",
+      "owningteam": "Team proprietario",
+      "owninguser": "Utente proprietario",
+      "pbita_estimatedclosedate": "Estimated close date",
+      "pbita_estimatedrevenue": "Estimated revenue",
+      "pbita_opportunity_AsyncOperations": "System Jobs",
+      "pbita_opportunity_BulkDeleteFailures": "Bulk Delete Failures",
+      "pbita_opportunity_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pbita_opportunity_ProcessSession": "Process Sessions",
+      "pbita_opportunityid": "Opportunity",
+      "pbita_PotentialcustomerId": "Potential customer",
+      "pbita_title": "Title",
+      "statecode": "Stato",
+      "statuscode": "Motivo stato",
+      "timezoneruleversionnumber": "Numero di versione regola fuso orario",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "Codice fuso orario conversione UTC",
+      "versionnumber": "Numero di versione"
+    },
+    "PreferredName": "Opportunity",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Opportunity (Visualizzazioni)",
+    "Name": "_pbita_opportunity_views",
+    "RelatedEntityName": "Opportunity",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "03b44461-e7e9-454f-9197-38e9f82c012b": "Visualizzazione associata Opportunity",
+      "0bf25b61-4d92-4314-a51f-390affb5e312": "Opportunity inattivi/e",
+      "5208b063-241f-4074-a031-a52f7882eaad": "Visualizzazione ricerca Opportunity",
+      "ae9a60c1-1e24-408a-981f-7e719b336aa8": "Visualizzazione ricerca avanzata Opportunity",
+      "c05b3a9a-a0b3-48a5-84b8-21bdd74b6edd": "Opportunity attivi/e"
+    }
+  },
+  {
+    "DisplayName": "Stato (Opportunity)",
+    "Name": "pbita_opportunity_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Attivo",
+      "1": "Inattivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Opportunity"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Opportunity",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Motivo stato (Opportunity)",
+    "Name": "pbita_opportunity_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Attivo",
+      "2": "Inattivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Opportunity"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Opportunity",
+    "Type": "OptionSetInfo"
+  }
+]
