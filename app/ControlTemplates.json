@@ -70,6 +70,30 @@
     "OverridableProperties": {},
     "Version": "1.6.0"
   },
+  "pcfDataField": {
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/pcfDataField",
+    "IsComponentTemplate": false,
+    "IsPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "pcfDataField",
+    "Version": "1.5.0"
+  },
+  "PowerAppsOneGridTemplate_dataField": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/PowerAppsOneGridTemplate_dataField",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerAppsOneGridTemplate_dataField",
+    "OverridableProperties": {},
+    "Version": "1.5.0"
+  },
   "screen": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -98,6 +122,21 @@
     "OverridableProperties": {},
     "TemplateDisplayName": "Tab list",
     "Version": "2.2.26"
+  },
+  "Table": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerAppsOneGrid",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerAppsOneGrid",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Table",
+    "Version": "1.0.200"
   },
   "Teams": {
     "CustomGroupControlTemplateName": "",

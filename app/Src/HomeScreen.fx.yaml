@@ -118,6 +118,72 @@
                             Width: =Parent.TemplateWidth
                             ZIndex: =1
 
+                TableOpportunities As Table.pcfdataset:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =If(Self.Y + 500 > Parent.Height, Parent.Height - Self.Y, 500)
+                    Items: =Opportunity
+                    LayoutMinHeight: =If(Self.Y + 500 > Parent.Height, Parent.Height - Self.Y, 500)
+                    LayoutMinWidth: =If(Self.X + 800 > Parent.Width, Parent.Width - Self.X, 800)
+                    onCellValueChange: =false
+                    onFilter: =false
+                    onNavigate: =false
+                    onRowSelect: =false
+                    onSave: =false
+                    OnSelect: =false
+                    PCFTeamsTheme: ="default"
+                    Width: =If(Self.X + 800 > Parent.Width, Parent.Width - Self.X, 800)
+                    X: =0
+                    Y: =0
+                    ZIndex: =2
+
+                    Title1 As PowerAppsOneGridTemplate_dataField.textualColumn:
+                        FieldDisplayName: ="Title"
+                        FieldName: ="pbita_title"
+                        FieldType: ="s"
+                        FieldVariantName: ="textualColumn"
+                        Height: =100
+                        Order: =1
+                        Width: =0
+                        X: =0
+                        Y: =0
+                        ZIndex: =7
+
+                    "'Estimated revenue1' As PowerAppsOneGridTemplate_dataField.textualColumn":
+                        FieldDisplayName: ="Estimated revenue"
+                        FieldName: ="pbita_estimatedrevenue"
+                        FieldType: ="$"
+                        FieldVariantName: ="textualColumn"
+                        Height: =100
+                        Order: =4
+                        Width: =0
+                        X: =0
+                        Y: =0
+                        ZIndex: =8
+
+                    "'Estimated close date1' As PowerAppsOneGridTemplate_dataField.textualColumn":
+                        FieldDisplayName: ="Estimated close date"
+                        FieldName: ="pbita_estimatedclosedate"
+                        FieldType: ="d"
+                        FieldVariantName: ="textualColumn"
+                        Height: =100
+                        Order: =5
+                        Width: =0
+                        X: =0
+                        Y: =0
+                        ZIndex: =9
+
+                    "'Potential customer1' As PowerAppsOneGridTemplate_dataField":
+                        FieldDisplayName: ="Potential customer"
+                        FieldName: ="pbita_PotentialcustomerId"
+                        FieldType: ="E"
+                        FieldVariantName: ="complexTypeColumn"
+                        Height: =100
+                        Order: =2
+                        Width: =0
+                        X: =0
+                        Y: =0
+                        ZIndex: =10
+
             HomeScreenFormContainer As groupContainer.verticalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.Light
